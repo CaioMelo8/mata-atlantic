@@ -1,0 +1,49 @@
+.product-info {
+  max-width: 700px;
+  margin: 20px auto 0px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-info h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 32px;
+}
+
+.product-info p {
+  color: #666;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.product-info p a {
+  color: rgb(35, 140, 192);
+}
+
+.product-info .actions {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.product-info .actions a,
+.product-info .actions button {
+  background: rgb(56, 131, 34);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product-info .actions a:hover,
+.product-info .actions button:hover {
+  opacity: 0.7;
+}
